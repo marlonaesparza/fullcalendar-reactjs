@@ -1,0 +1,46 @@
+{
+  "name": "fullcalendar-reactjs",
+  "version": "1.0.0",
+  "description": "A simple UI for a calendar application built with React JS that leverages FullCalendar IO.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index.js",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlonaesparza/fullcalendar-reactjs.git"
+  },
+  "author": "Marlon A. Esparza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marlonaesparza/fullcalendar-reactjs/issues"
+  },
+  "homepage": "https://github.com/marlonaesparza/fullcalendar-reactjs#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.8",
+    "@fullcalendar/daygrid": "^5.9.0",
+    "@fullcalendar/interaction": "^5.9.0",
+    "@fullcalendar/react": "^5.9.0",
+    "@fullcalendar/timegrid": "^5.9.0",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "style-loader": "^3.2.1",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.9",
+    "@babel/preset-react": "^7.14.5",
+    "css-loader": "^6.2.0",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
